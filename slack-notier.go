@@ -38,7 +38,7 @@ func main() {
         if err != nil {
             log.Fatal(err)
         	}
-		data[idx] = name+" /  "+content+"\n"
+		data[idx] = name+"-  ```"+content+"```\n"
 		msgfull += data[idx]
 	}
     
